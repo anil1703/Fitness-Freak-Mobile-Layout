@@ -1,0 +1,229 @@
+.home-bg-color{
+    background-color:white;
+    background-size: cover;
+    height: 684px;
+    width: 408px;
+    padding:20px
+}
+.main-logo-head{
+    font-size: 30px;
+    
+}
+span{
+    color: red;
+}
+.box-info1{
+    height: 170px;
+    width:380px;
+    background-color:rgb(39, 203, 211);
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+.box-info1:hover{
+    cursor: pointer;
+    
+}
+.pad-img{
+    padding-top: 20px;
+}
+.img1-size{
+    height: 150px;
+}
+
+.box-head{
+    color: white;
+    font-size: 28px;
+    padding-top: 68px;
+    padding-right:25px;
+    font-family:cursive;
+}
+.box-info2{
+    height: 170px;
+    width:380px;
+    background-color:rgb(167, 25, 143);
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+.box-info2:hover{
+    cursor: pointer;
+}
+.pad-img-box2{
+    padding-top: 20px;
+    padding-right:65px;
+}
+.box2-head{
+    color: white;
+    font-size: 28px;
+    padding-top: 68px;
+    padding-right:20px;
+    font-family:cursive;
+}
+.box-info3{
+    height: 170px;
+    width:380px;
+    background-color:rgb(30, 236, 136);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+.box-info3{
+    cursor: pointer;
+}
+.pad-img-box3{
+    padding-top: 18px;
+    padding-right: 0px;
+}
+.box3-head{
+    color: white;
+    font-size: 28px;
+    padding-top: 68px;
+    padding-right:75px;
+    font-family:cursive;
+}
+.home-buttons{
+    background-color:white;
+    height: 50px;
+}
+.home-icon{
+    color: rgba(11, 11, 11, 0.495);
+    font-size: 30px;
+    padding-top: 10px;
+    margin-right: 120px;
+    margin-left: 45px;
+}
+.home-icon:hover{
+    color: black;
+    cursor: pointer;
+}
+.profile-icon{
+    color: rgba(11, 11, 11, 0.495);
+    font-size: 30px;
+    padding-top: 10px;
+    margin-right: 120px;
+}
+.profile-icon:hover{
+    color: black;
+    cursor: pointer;;
+}
+.logout-icon{
+    color: rgba(11, 11, 11, 0.495);
+    font-size: 30px;
+    padding-top: 10px;
+    margin-right: 0px;
+}
+.logout-icon:hover{
+    color: black;
+    cursor: pointer;
+}
+.train-plan-bg-color{
+    background-color:white;
+    background-size: cover;
+    height: 684px;
+    width: 408px;
+    padding:20px
+}
+.train-plan-main-logo-head{
+    font-size: 30px;
+    
+}
+span{
+    color: red;
+}
+.beginner-box{
+    margin-top: 40px;
+    background-image: url("https://res.cloudinary.com/dafmi9027/image/upload/v1693155712/Fitness%20freak%20Mobile%20Home%20page/Screenshot_2023-08-27_223029_lowyvf.png");
+    border-radius: 15px;
+    height: 180px;
+    width: 382px;
+    background-size: cover;
+    color:transparent;
+    text-align: center;
+}
+.beginner-box:hover{
+    color: white;
+    font-family: 'Roboto';
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/dafmi9027/image/upload/v1693155712/Fitness%20freak%20Mobile%20Home%20page/Screenshot_2023-08-27_223029_lowyvf.png");
+}
+.intermediate-box{
+    margin-top: 20px;
+    background-image: url("https://res.cloudinary.com/dafmi9027/image/upload/v1693155712/Fitness%20freak%20Mobile%20Home%20page/powerful-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-with-dumbbells-isolated-dark-background_uwdgu2.jpg");
+    border-radius: 15px;
+    height: 180px;
+    width: 382px;
+    background-size: cover;
+    color:transparent;
+    text-align: center;
+}
+.intermediate-box:hover{
+    color: white;
+    font-family: 'Roboto';
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/dafmi9027/image/upload/v1693155712/Fitness%20freak%20Mobile%20Home%20page/powerful-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-with-dumbbells-isolated-dark-background_uwdgu2.jpg");
+}
+.advanced-box{
+    margin-top: 20px;
+    background-image: url("https://res.cloudinary.com/dafmi9027/image/upload/v1693155711/Fitness%20freak%20Mobile%20Home%20page/i2pqog_z1j5at.jpg");
+    border-radius: 15px;
+    height: 180px;
+    width: 382px;
+    background-size: cover;
+    color:transparent;
+    text-align: center;
+}
+.advanced-box:hover{
+    color: white;
+    font-family: 'Roboto';
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/dafmi9027/image/upload/v1693155711/Fitness%20freak%20Mobile%20Home%20page/i2pqog_z1j5at.jpg");
+}
+.boxes-diet-plan{
+    margin-top: 10px;
+}
+.boxes2-diet-plan{
+    margin-top: 0px;
+}
+.diet-img-set{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.yoga-box-bg-clr{
+    background-color: rgba(54, 104, 211, 0.21);
+    height: 180px;
+    width: 300px;
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+.yoga-box-margin-set{
+    margin-right: 35px;
+    margin-left: 27px;
+}
+.profile-round{
+    background-color:white;
+    
+}
+.profile-round-symbol{
+    background-color: azure;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    border-color: rgb(0, 170, 255);
+    border-width: 2px;
+    border-style:solid ;
+    padding-left: 32px;
+    padding-top: 10px;
+
+}
+.profile-content-box{
+    background-color: azure;
+    border-radius: 100px;
+    height: 70px;
+    width: 380px;
+    border-color: rgb(0, 170, 255);
+    border-width: 2px;
+    border-style:solid ;
+    margin-top: 15px;
+    padding-bottom: 20px;
+
+}

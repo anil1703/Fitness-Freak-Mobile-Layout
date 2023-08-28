@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d72296bb7c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="section-home">
+            <div class="home-bg-color">
+                <h1 class="main-logo-head"><span>F</span>itness <span>F</span>reak</h1>
+                <div class="box-info1" onclick="display('section-train-plan')">
+                    <div class="d-flex flex-row justify-content-end">
+                        <div>
+                            <h1 class="box-head">Train Plan</h1>
+                        </div>
+                        <div class="pad-img">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693069005/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_tqs8w2.png"  class="img1-size" />
+                        </div>
+                    </div>
+                </div>
+                <div class="box-info2" onclick="display('section-diet-plan')">
+                    <div class="d-flex flex-row justify-content-end">
+                        <div class="pad-img-box2">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693069005/Fitness%20freak%20Mobile%20Home%20page/pngegg_qjatpb.png" height="150px" />
+                        </div>
+                        <div>
+                            <h1 class="box2-head">Diet Plan</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-info3" onclick="display('section-yoga-plan')">
+                    <div class="d-flex flex-row justify-content-end">
+                        <div>
+                            <h1 class="box3-head">Yoga Plan</h1>
+                        </div>
+                        <div class="pad-img-box3">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693069006/Fitness%20freak%20Mobile%20Home%20page/pngegg_1_gqqnq7.png" height="180px" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="home-buttons shadow fixed-bottom">
+                    <div class="d-flex flex-row">
+                        <div onclick="display('section-home')">
+                            <i class="fa-solid fa-house home-icon"></i>
+                        </div>
+                        <div  onclick="display('section-profile')">
+                            <i class="fa-solid fa-user profile-icon"></i>
+                        </div>
+                        <div  onclick="display('section-logout')">
+                            <i class="fa-solid fa-right-from-bracket logout-icon"></i>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="section-train-plan">
+                <div class="train-plan-bg-color">
+                    <h1 class="train-plan-main-logo-head"><span>T</span>raining <span>P</span>lan</h1>
+                
+                <div class="beginner-box d-flex flex-column justify-content-center">
+                    <h1>#Beginners</h1>
+                </div>
+                <div class="intermediate-box d-flex flex-column justify-content-center">
+                    <h1>#Intermediate</h1>
+                </div>
+                <div class="advanced-box d-flex flex-column justify-content-center">
+                    <h1>#Advanced</h1>
+                </div>
+                
+                <div class="home-buttons shadow fixed-bottom">
+                    <div class="d-flex flex-row">
+                        <div onclick="display('section-home')">
+                            <i class="fa-solid fa-house home-icon"></i>
+                        </div>
+                        <div onclick="display('section-profile')">
+                            <i class="fa-solid fa-user profile-icon"></i>
+                        </div>
+                        <div onclick="display('section-logout')">
+                            <i class="fa-solid fa-right-from-bracket logout-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id ="section-diet-plan">
+            <div class="train-plan-bg-color">
+                <h1 class="train-plan-main-logo-head"><span>D</span>iet <span>P</span>lan</h1>
+            <div class="boxes-diet-plan d-flex flex-row">
+                <div >
+                    <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693158373/Fitness%20freak%20Mobile%20Home%20page/side-view-boiled-egg-half-with-fork-wooden-rustic_etgpq4.jpg" class="diet-img-set" height="170px">
+                    <p class="text-center">Egg</p>
+                </div>
+                <div>
+                    <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693158372/Fitness%20freak%20Mobile%20Home%20page/front-view-young-female-dark-green-shirt-blue-jeans-holding-glass-milk-flexing-beige_nj6igi.jpg" height="170px">
+                    <p class="text-center">Milk</p>
+                </div>
+            </div>
+            <div class="boxes2-diet-plan d-flex flex-row">
+                <div >
+                    <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693158371/Fitness%20freak%20Mobile%20Home%20page/raw-yellow-banana-slices-wooden-bowl_chpxep.jpg" class="diet-img-set" height="170px">
+                    <p class="text-center">Banana</p>
+                </div>
+                <div>
+                    <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693158371/Fitness%20freak%20Mobile%20Home%20page/chicken-fillet-with-vegetables-steamed_v5jpef.jpg" height="170px">
+                    <p class="text-center">Chicken</p>
+                </div>
+            </div>
+            <div class="boxes2-diet-plan d-flex flex-row">
+                <div >
+                    <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693158373/Fitness%20freak%20Mobile%20Home%20page/top-view-desk-with-nuts-walnuts-hazelnuts-almonds-inside-shaped-desk-white-desk-nut-walnut-salted-snack_a2g4mc.jpg" class="diet-img-set" height="170px">
+                    <p class="text-center">Dry Fruits</p>
+                </div>
+                <div>
+                    <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693158813/Fitness%20freak%20Mobile%20Home%20page/clean-green-female-workout-girl-sport_hda6bc.jpg" height="170px">
+                    <p class="text-center">Salads</p>
+                </div>
+            </div>
+            <div class="home-buttons shadow fixed-bottom">
+                    <div class="d-flex flex-row">
+                        <div onclick="display('section-home')">
+                            <i class="fa-solid fa-house home-icon"></i>
+                        </div>
+                        <div onclick="display('section-profile')">
+                            <i class="fa-solid fa-user profile-icon"></i>
+                        </div>
+                        <div onclick="display('section-logout')">
+                            <i class="fa-solid fa-right-from-bracket logout-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id = "section-yoga-plan">
+            <div class="train-plan-bg-color">
+                <h1 class="train-plan-main-logo-head"><span>Y</span>oga <span>P</span>lan</h1>
+                <div class="yoga-boxes">
+                    <div class="d-flex flex-row">
+                        <div class="yoga-box-bg-clr yoga-box-margin-set">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693191730/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_3_vyowjc.png" height="150px"/>
+                        </div>
+                        <div class="yoga-box-bg-clr" style="padding-left: 27px;">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693191730/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_4_pbt82x.png" height="150px"/>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="yoga-box-bg-clr yoga-box-margin-set" style="padding-left: 25px;">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693191730/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_7_bqzrff.png" height="150px"/>
+                        </div>
+                        <div class="yoga-box-bg-clr" style="padding-left: 25px;">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693191730/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_8_hqdfua.png" height="150px"/>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="yoga-box-bg-clr yoga-box-margin-set" style="padding-left: 0px;padding-top: 50px;">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693191730/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_5_m52nkd.png" height="100px"/>
+                        </div>
+                        <div class="yoga-box-bg-clr" style="padding-left: 0px;padding-top: 50px;">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693191730/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_6_lirimk.png" height="90px"/>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="home-buttons shadow fixed-bottom">
+                <div class="d-flex flex-row">
+                    <div onclick="display('section-home')">
+                        <i class="fa-solid fa-house home-icon"></i>
+                    </div>
+                    <div onclick="display('section-profile')">
+                        <i class="fa-solid fa-user profile-icon"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-right-from-bracket logout-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section-profile">
+            <div class="train-plan-bg-color">
+                <h1 class="train-plan-main-logo-head"><span>P</span>rofile</h1>
+                <div>
+                    <div class="profile-round d-flex flex-row justify-content-center">
+                        <div class="profile-round-symbol">
+                            <h1 style="font-size: 95px;"><i class="fa-solid fa-user" style="color: #aec1b4;"></i></h1>
+                            
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <h1 style="font-size: 30px;text-align: center;margin-top: 10px;"><span>A</span>nil <span>T</span>hota</h1>
+                    </div>
+                    <div class="profile-content-box">
+                    <div>
+                        <div class="d-flex flex-row ">
+                            <div>
+                                <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693215540/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_e_cfokwl.png" height="70px"/>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center">
+                                <p style="font-size: 23px;margin-left: 20px;padding-top: 15px;">Your Progress</p>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center" style="margin-left: 90px;">
+                                <h1 style="font-size: 20px;"><i class="fa-solid fa-arrow-right" style="color: #376bae;"></i></h1>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="profile-content-box">
+                        <div>
+                            <div class="d-flex flex-row ">
+                                <div style="padding-left: 10px;padding-top: 10px;">
+                                    <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693215540/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_caa_esqtcz.png" height="50px"/>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <p style="font-size: 23px;margin-left: 20px;padding-top: 15px;">Calender</p>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center" style="margin-left: 142px;">
+                                    <h1 style="font-size: 20px;"><i class="fa-solid fa-arrow-right" style="color: #376bae;"></i></h1>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="profile-content-box">
+                            <div>
+                                <div class="d-flex flex-row ">
+                                    <div  style="padding-top: 10px;">
+                                        <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693215540/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_1_fvbe_ebyuiv.png" height="60px"/>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <p style="font-size: 23px;margin-left: 20px;padding-top: 15px;">Heart Rate</p>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center" style="margin-left: 120px;">
+                                        <h1 style="font-size: 20px;"><i class="fa-solid fa-arrow-right" style="color: #376bae;"></i></h1>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="profile-content-box">
+                                <div>
+                                    <div class="d-flex flex-row ">
+                                        <div style="padding-left: 10px;">
+                                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693215540/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_1_asas_xig0nm.png" height="60px"/>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-center">
+                                            <p style="font-size: 23px;margin-left: 20px;padding-top: 15px;">Remainder</p>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-center" style="margin-left: 113px;">
+                                            <h1 style="font-size: 20px;"><i class="fa-solid fa-arrow-right" style="color: #376bae;"></i></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="profile-content-box">
+                                    <div>
+                                        <div class="d-flex flex-row ">
+                                            <div  style="padding-left: 7px;">
+                                                <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1693215540/Fitness%20freak%20Mobile%20Home%20page/pngwing.com_1_nffn_g9tgec.png" height="60px"/>
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <p style="font-size: 23px;margin-left: 20px;padding-top: 15px;">Stop Watch</p>
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center" style="margin-left: 113px;">
+                                                <h1 style="font-size: 20px;"><i class="fa-solid fa-arrow-right" style="color: #376bae;"></i></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                </div>
+            </div>
+            <div class="home-buttons shadow fixed-bottom">
+                <div class="d-flex flex-row">
+                    <div onclick="display('section-home')">
+                        <i class="fa-solid fa-house home-icon"></i>
+                    </div>
+                    <div onclick="display('section-profile')">
+                        <i class="fa-solid fa-user profile-icon"></i>
+                    </div>
+                    <div onclick="display('section-logout')">
+                        <i class="fa-solid fa-right-from-bracket logout-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section-logout">
+            <div class="train-plan-bg-color">
+                <h1 class="train-plan-main-logo-head"><span>Hi,</span>Anil...</h1>
+                <div style="margin-top: 250px;">
+                    <div style="text-align: center;">
+                        <p>Click Here to</p>
+                        <button class="bg-primary" style="border-style: none;color: white;border-radius: 10px;padding: 8px;">Logout</button>
+                    </div>
+                </div>
+            </div>
+            <div class="home-buttons shadow fixed-bottom">
+                <div class="d-flex flex-row">
+                    <div onclick="display('section-home')">
+                        <i class="fa-solid fa-house home-icon"></i>
+                    </div>
+                    <div onclick="display('section-profile')">
+                        <i class="fa-solid fa-user profile-icon"></i>
+                    </div>
+                    <div onclick="display('section-logout')">
+                        <i class="fa-solid fa-right-from-bracket logout-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </body>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</html>
